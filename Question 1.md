@@ -5,7 +5,7 @@ After examining the headers for each of the columns and the type of data that wa
 
 I believe a better way to calculate the average order value (AOV) of the data is by dividing the sum of the "order_amount" by that of the sum of "total_items". This approach makes sense, as there were some orders that were outliers (bulk purchases), which inflated the AOV, and since we're attempting to find the average price of a sneaker, it would make sense to compare it to the number of items rather than the number of orders.
 
-I've written up a solution in Python, which can be accessed here.
+I've written up a solution in Python, which can be accessed [here](https://github.com/M-AyanShaikh/Shopify-Data-Science-Intern-Summer-2022-Challenge/blob/main/Sneakers.py).
 
 ## Question 1.b
 
